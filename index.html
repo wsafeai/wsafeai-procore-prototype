@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wsafe.ai + Procore — UI/UX prototype (planned design)</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/app.css"></head>
+<body>
+<div class="proto-banner">Concept prototype — illustrative data, not a live deployment <span class="pill">Planned design</span><span class="pill">No live Procore connection</span><span class="pill" id="bStep">Walkthrough</span></div>
+<div class="stage" id="stage"></div>
+<div class="wbar" id="wbar">
+  <div class="num" id="wNum">1</div>
+  <div class="txt"><div class="ttl" id="wTtl"></div><div class="cap" id="wCap"></div></div>
+  <div class="api"><div class="lbl">Procore API in this step</div><div class="row" id="wApi"></div></div>
+  <div class="nav"><div class="btns"><button id="prev">← Back</button><button id="next" class="primary">Next →</button></div><div class="dots" id="dots"></div></div>
+</div>
+<div class="toast" id="toast"></div>
+<svg id="fakeCursor" viewBox="0 0 24 24"><path d="M3 2 L3 19 L8 14.5 L11.5 22 L14.5 20.6 L11 13.4 L17.5 13.4 Z" fill="#fff" stroke="#111" stroke-width="1.4" stroke-linejoin="round"/></svg>
+<div id="clickRing"></div>
+<script src="assets/app.js"></script>
+</body></html>
